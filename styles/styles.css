@@ -59,7 +59,9 @@ address {
   height: 757px;
   background-size: cover;
   background-position: center;
+ 
 }
+
 
 .cover_label {
   margin-left: 50px;
@@ -68,6 +70,7 @@ address {
   margin-bottom: 135px;
   display: relative;
   height: 355px;
+ 
 }
 
 .first_up {
@@ -79,6 +82,7 @@ address {
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #FFFFFF;
+ 
 }
 
 .first_up_letter {
@@ -116,6 +120,7 @@ address {
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 0;
+  
 }
 
 .first_down_letter {
@@ -215,6 +220,7 @@ address {
 }
 .lots_pictures {
   background-image: url(../images/card-lot-03.jpg);
+ 
   background-repeat: no-repeat;
   width: 334px;
   height: 563px;
