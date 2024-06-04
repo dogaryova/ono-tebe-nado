@@ -1,1 +1,1 @@
-ono-tebe-nado v1.3
+https://github.com/dogaryova/ono-tebe-nado.git
