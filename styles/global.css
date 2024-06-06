@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 
-body {
+
+
+main {
+  display: grid;
   width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
 }
 
 h1,
