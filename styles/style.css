@@ -3,11 +3,7 @@
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
-.fons__header {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-}
+
 .header {
   padding: 92px 24px 96px;
   margin: 0 auto;
@@ -25,10 +21,11 @@
 }
 
 .header__menu {
+  font-size: 18px;
+  font-weight: 400;
   line-height: 21.13px;
   display: flex;
   padding-top: 3px;
-  
 }
 
 .header__menu li:last-child {
@@ -48,7 +45,8 @@
   text-underline-offset: 4px;
   letter-spacing: 0.004em;
 }
-.adres_font{
+
+.adres_font {
   width: 270px;
   text-underline-offset: 3px;
   font-size: 18px;
@@ -57,17 +55,13 @@
   font-style: normal;
   letter-spacing: 0.004em;
 }
-address {
+
+.adres__header {
   margin-left: 193px;
   padding-top: 5px;
   width: 270px;
-  text-underline-offset: 3px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  font-style: normal;
-  letter-spacing: 0.004em;
 }
+
 .cover {
   padding: 165px 50px 51px;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(/images/cover.jpg);
@@ -75,7 +69,6 @@ address {
   background-position: center top;
   background-size: cover;
   color: #FFF;
-
 }
 
 .cover__title {
@@ -84,37 +77,45 @@ address {
  letter-spacing: 0.3em;
  line-height: 1.22;
 }
-.aligned-text {
+
+.cover-text {
   display: block;
 }
+
 .letter-spacing-extended {
   letter-spacing: 0.6em;
 }
+
 .aligned-text_center {
   text-align: center;
 }
+
 .aligned-text_right {
   text-align: right ;
 }
-.letter-spacing-extended-three {
+
+.letter-spacing-extended-min {
   letter-spacing: 0.3em;
 }
-.no-letter-spacingno-letter-spacing {
+
+.no-letter-spacing {
   letter-spacing: 0;
 }
-.cover__description {
+
+.cover__down {
   margin-top: 125px;
   display: flex;
   font-size: 22px;
   align-items: center;
   justify-content: end;
   gap: 77px;
-
 }
-.cover__description-text {
+
+.cover__down-text {
   text-transform: uppercase;
   word-spacing: 18px;
 }
+
 .bet-button {
   cursor: pointer;
   font-size: 22px;
@@ -123,7 +124,6 @@ address {
   background-color: transparent;
   border: 1px solid #FFF;
   padding: 12px 32px;
-
 }
 
 .lots {
@@ -239,8 +239,6 @@ address {
   padding-bottom: 20px;
   display:flex;
   width: 1052px;
- 
- 
 }
 
 .logo_white {
@@ -262,12 +260,11 @@ address {
   margin-left:47px;
   padding-top: 98px;
   margin-bottom: 100px;
- 
 }
 
 .about__text {
- max-width: 793px;
- max-height: 314px;
+  max-width: 793px;
+  max-height: 314px;
   margin-top: 25px;
   margin-left: 0;
   font-family: 'Raleway', sans-serif;
@@ -277,13 +274,11 @@ address {
   line-height: 24px;
   color: #000000;
   padding-left: 46px;
- 
 }
 
 .about_black {
   width: 993px;
   height: 449px;
-
 }
 
 .logo_border {
@@ -294,7 +289,6 @@ address {
   padding-bottom: 30px;
   padding-top: 65px;
   padding-left: 44px;
-
 }
 
 .section_about {
@@ -303,7 +297,6 @@ address {
   grid-template-columns: 240px 1fr;
   gap: 25px;
   max-width: 1052px;
-
 }
 
 .footer {
@@ -320,7 +313,6 @@ address {
 .footer__menu {
   padding-left: 181px;
   display: flex;
-  justify-content: start;
   margin-left: 0;
 }
 
@@ -345,14 +337,9 @@ address {
 
 .footer__address {
   margin-left: 0;
-  padding-top:0;
-  width: 270px;
-  text-underline-offset: 3px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  font-style: normal;
-  letter-spacing: 0.004em;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__social-array {
@@ -372,4 +359,3 @@ address {
   list-style: none;
   text-align: none;
 }
-
